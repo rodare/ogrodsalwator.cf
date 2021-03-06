@@ -1,23 +1,22 @@
 * {
 margin: 0;
 padding: 0;
-font-family: arial, helvetica;
+list-style-type: none;
+text-decoration: none;
 text-align: justify;
-
+text-justify: inter-word;
+font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+color: #4E6883;
 }
+
+.img-banner {
+    display: none;
+  }
 
 .wrapper {
     width: 100%;
 }
 
-.img-banner {
-  display: none;
-}
-.img-banner2 {
-    display: block;
-    width: 100%;
-    padding-bottom: 10px;
-  }
 .headline,
 .headline a,
 .headline a:link,
@@ -25,25 +24,49 @@ text-align: justify;
 .headline a:hover
 {
 font-size: 30px;
-    width: 100%;
+
 font-weight: normal;
 font-style: normal;
 text-decoration: none;
 text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
-padding: 10px 0px 6px 0px;
-font-family: arial;
-font-size: 40px;
-color: #111;
-line-height: 44px;
-  margin: 0;
+float:left;
+/* padding: 82px 0px 0px 0px; */
+margin: 0px 0px 0px 21px;
+
   color: #FA6114 !important;
   white-space: nowrap;
 }
 
+/* .img-info {
+    position:absolute;
+    top: 40px;
+    left: 20px;
+    right: 10px;
+    height:20px;
+}
+
+.img-info h2 {
+    font-family: arial;
+    font-size: 15px;
+    line-height: 40px;
+
+}
+
+.img-info p {
+    font-family: arial;
+    font-size: 14px;
+    line-height: 16px;
+    color: #303F50;
+}
+
+.img-me {
+    width:100%;
+
+} */
 /* Dropdown menu start */
 ul {
     list-style-type: none;
-    margin-top: -5px;
+    margin-top: 30px;
     padding: 0;
     overflow: hidden;
     background-color: #333;
@@ -57,7 +80,7 @@ ul {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 12px 7px;
+    padding: 14px 16px;
     text-decoration: none;
   }
 
@@ -93,105 +116,67 @@ ul {
   }
  /* Drop-down menu end */
 
-.img-info {
-    width: 100%;
-}
-
-.img-info h2 {
-    padding: 30px 30px 20px;
-    font-family: arial;
-    font-size: 40px;
-    color: #111;
-    line-height: 44px;
-}
-
-.img-info p {
-    padding: 0px 30px 20px;
-    font-family: arial;
-    font-size: 16px;
-    color: #111;
-    line-height: 24px;
-}
-
-.img-me {
-    width:100%;
-}
 
 @media only screen and (min-width:768px){
 
-  .img-banner2 {
-    display: none;
-  }
     .img-banner {
         display: block;
         width: 100%;
+        padding-bottom: 30px;
       }
 
-    ul {
-        list-style-type: none;
-        margin-top: -21px;
-        padding: 0;
-        overflow: hidden;
-        background-color: #333;
-      }
-    .wrapper {
-        width: 750px;
+      .wrapper {
+        width: 700px;
         margin: 0 auto;
-      }
-
-      .headline,
-      .headline a,
-      .headline a:link,
-      .headline a:visited,
-      .headline a:hover
-      {
-      padding: 10px 0px 27px 0px;
-
-      }
-    .img-info h2 {
-        padding: 20px 0px 0px;
     }
-    .img-info p {
-        padding: 6px 0px 0px;
-    }
+
     .img-me {
         padding-top:30px;
 
     }
 }
 
-@media only screen and (min-width: 1100px){
+@media only screen and (min-width: 1000px){
 
-  .img-banner2 {
-    display: none;
-  }
+    .img-banner {
+        display: block;
+        width: 100%;
+        padding-bottom: 30px;
+      }
+
+
     .wrapper {
-        width: 1100px;
-    }
-
-    .img-info {
-        width: 50%;
-        float: right;
+        width: 1000px;
+        margin: 0 auto;
     }
 
     .img-info h2 {
         padding: 20px 0px 0px 30px;
-    }
-    .img-info p {
-        padding: 20px 0px 0px 30px;
-    }
-
-    li a, .dropbtn {
-      display: inline-block;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
     }
 
     .img-me {
         padding-top: 0px;
         width: 50%;
         float: left;
+    }
+
+    .headline,
+    .headline a,
+    .headline a:link,
+    .headline a:visited,
+    .headline a:hover
+    {
+    font-size: 30px;
+
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+    float:left;
+    /* padding: 82px 0px 0px 0px; */
+    margin: 69px -125px 0px 21px;
+
+      color: #FA6114 !important;
+      white-space: nowrap;
     }
 }
